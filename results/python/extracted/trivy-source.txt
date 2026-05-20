@@ -1,0 +1,10 @@
+apps/python-flask-app
+Flask
+Flask-Cors
+flask-restx
+Flask-SQLAlchemy
+gunicorn
+pytest
+python-dotenv
+requirements.txt
+Werkzeug

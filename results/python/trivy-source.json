@@ -1,0 +1,324 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apps/python-flask-app",
+  "documentNamespace": "http://trivy.dev/repository/apps/python-flask-app-8f142f7b-499e-4f0a-b203-9edb4fe88dbb",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.70.0"
+    ],
+    "created": "2026-05-20T22:02:59Z"
+  },
+  "packages": [
+    {
+      "name": "requirements.txt",
+      "SPDXID": "SPDXRef-Application-243836e57ed785a5",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pip"
+        }
+      ]
+    },
+    {
+      "name": "Flask",
+      "SPDXID": "SPDXRef-Package-4c1bc38d0c8d46a7",
+      "versionInfo": "2.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/flask@2.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "Flask-Cors",
+      "SPDXID": "SPDXRef-Package-1c62cedc7f0a2084",
+      "versionInfo": "3.0.10",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/flask-cors@3.0.10"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "Flask-SQLAlchemy",
+      "SPDXID": "SPDXRef-Package-4e334d669da4a647",
+      "versionInfo": "2.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/flask-sqlalchemy@2.5.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "Werkzeug",
+      "SPDXID": "SPDXRef-Package-facce4cc8aefb41c",
+      "versionInfo": "2.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/werkzeug@2.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "flask-restx",
+      "SPDXID": "SPDXRef-Package-a6717a4753ab91de",
+      "versionInfo": "0.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/flask-restx@0.5.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "gunicorn",
+      "SPDXID": "SPDXRef-Package-8e9e1fd2197dbae1",
+      "versionInfo": "20.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/gunicorn@20.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "pytest",
+      "SPDXID": "SPDXRef-Package-4d25cb13fa69e981",
+      "versionInfo": "6.2.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pytest@6.2.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "python-dotenv",
+      "SPDXID": "SPDXRef-Package-585d946d66031906",
+      "versionInfo": "0.19.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/python-dotenv@0.19.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "apps/python-flask-app",
+      "SPDXID": "SPDXRef-Repository-7d5618a0d4feea9b",
+      "downloadLocation": "git+apps/python-flask-app",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-20T22:02:59Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-1c62cedc7f0a2084",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-4c1bc38d0c8d46a7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-4d25cb13fa69e981",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-4e334d669da4a647",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-585d946d66031906",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-8e9e1fd2197dbae1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-a6717a4753ab91de",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-facce4cc8aefb41c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-7d5618a0d4feea9b",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-7d5618a0d4feea9b",
+      "relatedSpdxElement": "SPDXRef-Application-243836e57ed785a5",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

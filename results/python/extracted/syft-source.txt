@@ -1,0 +1,9 @@
+apps/python-flask-app
+flask
+flask-cors
+flask-restx
+flask-sqlalchemy
+gunicorn
+pytest
+python-dotenv
+werkzeug
