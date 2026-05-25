@@ -1,18 +1,18 @@
 ==== nodejs ====
-syft-image.json: 1084
-syft-source.json: 904
-trivy-image.json: 1080
-trivy-source.json: 274
+syft-image.json: 5337
+syft-source.json: 906
+trivy-image.json: 1418
+trivy-source.json: 273
 
 ==== python ====
-syft-image.json: 537
+syft-image.json: 22236
 syft-source.json: 9
-trivy-image.json: 521
-trivy-source.json: 10
+trivy-image.json: 520
+trivy-source.json: 9
 
 ==== go ====
-syft-image.json: 268
-syft-source.json: 108
-trivy-image.json: 268
-trivy-source.json: 232
+syft-image.json: 13912
+syft-source.json: 121
+trivy-image.json: 267
+trivy-source.json: 231
 

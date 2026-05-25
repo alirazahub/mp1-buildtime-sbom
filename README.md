@@ -41,7 +41,8 @@ Analysis outputs are grouped under:
 
 - `results/` — summary and raw scan results,
 - `sboms/` — generated CycloneDX SBOM files,
-- `attestations/` — build attestation JSON artifacts.
+- `attestations/` — build attestation JSON artifacts,
+- `keys/` — build signing key materials.
 
 ---
 
@@ -55,13 +56,17 @@ Analysis outputs are grouped under:
 
 ---
 
-## Results Summary
+## Latest Analysis Data
+
+- SBOM format: `CycloneDX 1.6`
+- Attestation payload predicate type: `https://witness.testifysec.com/attestation-collection/v0.1`
+- Counts were collected from the CycloneDX SBOM component arrays using `jq '.components | length'`.
 
 | Language | Syft Source | Syft Image | Trivy Source | Trivy Image |
 |---|---|---|---|---|
-| Node.js | 904 | 1084 | 274 | 1080 |
-| Python | 9 | 537 | 10 | 521 |
-| Go | 108 | 268 | 232 | 268 |
+| Node.js | 906 | 5337 | 273 | 1418 |
+| Python | 9 | 22236 | 9 | 520 |
+| Go | 121 | 13912 | 231 | 267 |
 
 ---
 
@@ -82,19 +87,31 @@ mp1-buildtime-sbom/
 │   ├── go-app/
 │   ├── nodejs-app/
 │   └── python-flask-app/
-├── attestation/
+├── attestations/
 │   ├── go-build-attestation.json
 │   ├── nodejs-build-attestation.json
 │   └── python-build-attestation.json
+├── keys/
+│   ├── buildkey.pem
+│   └── buildpublic.pem
 ├── results/
 │   ├── go/
 │   ├── nodejs/
 │   ├── python/
 │   └── summary.txt
 ├── sboms/
-│   ├── go-*.cdx.json
-│   ├── nodejs-*.cdx.json
-│   └── python-*.cdx.json
+│   ├── go-syft-image.cdx.json
+│   ├── go-syft-source.cdx.json
+│   ├── go-trivy-image.cdx.json
+│   ├── go-trivy-source.cdx.json
+│   ├── nodejs-syft-image.cdx.json
+│   ├── nodejs-syft-source.cdx.json
+│   ├── nodejs-trivy-image.cdx.json
+│   ├── nodejs-trivy-source.cdx.json
+│   ├── python-syft-image.cdx.json
+│   ├── python-syft-source.cdx.json
+│   ├── python-trivy-image.cdx.json
+│   └── python-trivy-source.cdx.json
 └── README.md
 ```
 
