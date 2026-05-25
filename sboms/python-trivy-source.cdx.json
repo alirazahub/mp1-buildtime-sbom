@@ -1,0 +1,209 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:e1dce41f-bcfb-4bfd-b2d8-99c7688ee353",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-05-25T12:23:48+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.70.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "85ff2853-8929-41d0-8671-fde025a93028",
+      "type": "application",
+      "name": "apps/python-flask-app",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "46d89927-66e5-4f23-ab70-c80fb36bbe34",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask-cors@3.0.10",
+      "type": "library",
+      "name": "Flask-Cors",
+      "version": "3.0.10",
+      "purl": "pkg:pypi/flask-cors@3.0.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask-restx@0.5.1",
+      "type": "library",
+      "name": "flask-restx",
+      "version": "0.5.1",
+      "purl": "pkg:pypi/flask-restx@0.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask-sqlalchemy@2.5.1",
+      "type": "library",
+      "name": "Flask-SQLAlchemy",
+      "version": "2.5.1",
+      "purl": "pkg:pypi/flask-sqlalchemy@2.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask@2.0.2",
+      "type": "library",
+      "name": "Flask",
+      "version": "2.0.2",
+      "purl": "pkg:pypi/flask@2.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/gunicorn@20.1.0",
+      "type": "library",
+      "name": "gunicorn",
+      "version": "20.1.0",
+      "purl": "pkg:pypi/gunicorn@20.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest@6.2.5",
+      "type": "library",
+      "name": "pytest",
+      "version": "6.2.5",
+      "purl": "pkg:pypi/pytest@6.2.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-dotenv@0.19.2",
+      "type": "library",
+      "name": "python-dotenv",
+      "version": "0.19.2",
+      "purl": "pkg:pypi/python-dotenv@0.19.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/werkzeug@2.0.3",
+      "type": "library",
+      "name": "Werkzeug",
+      "version": "2.0.3",
+      "purl": "pkg:pypi/werkzeug@2.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "46d89927-66e5-4f23-ab70-c80fb36bbe34",
+      "dependsOn": [
+        "pkg:pypi/flask-cors@3.0.10",
+        "pkg:pypi/flask-restx@0.5.1",
+        "pkg:pypi/flask-sqlalchemy@2.5.1",
+        "pkg:pypi/flask@2.0.2",
+        "pkg:pypi/gunicorn@20.1.0",
+        "pkg:pypi/pytest@6.2.5",
+        "pkg:pypi/python-dotenv@0.19.2",
+        "pkg:pypi/werkzeug@2.0.3"
+      ]
+    },
+    {
+      "ref": "85ff2853-8929-41d0-8671-fde025a93028",
+      "dependsOn": [
+        "46d89927-66e5-4f23-ab70-c80fb36bbe34"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/flask-cors@3.0.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask-restx@0.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask-sqlalchemy@2.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask@2.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/gunicorn@20.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest@6.2.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-dotenv@0.19.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/werkzeug@2.0.3",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}
