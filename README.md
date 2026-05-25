@@ -136,25 +136,7 @@ mp1-buildtime-sbom/
 
 ---
 
-# 9. Challenges Encountered
-
-## Disk Space Issues
-
-During Python image scanning:
-
-```bash
-no space left on device
-```
-
-### Solution
-
-- Cleaned temporary files
-- Retried scans
-- Managed Docker storage
-
----
-
-# 10. Conclusion
+# 9. Conclusion
 
 This project demonstrated that build-time and image-level SBOM generation provide significantly more complete visibility into deployed software systems compared to source-only SBOM generation.
 
@@ -174,7 +156,7 @@ Therefore, build-time SBOMs improve:
 
 ---
 
-# 11. References
+# 10. References
 
 - https://github.com/anchore/syft
 - https://github.com/aquasecurity/trivy
